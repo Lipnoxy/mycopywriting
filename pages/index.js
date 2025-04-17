@@ -48,6 +48,20 @@ const examples = {
       content:
         "Naš novi blender: tišji, hitrejši, močnejši. 🥤\nZa domače smutije brez nereda."
     }
+  ],
+  realestate: [
+    {
+      title: "Oglas za nepremičnino",
+      content:
+        "✨ NOVO: 3-sobno stanovanje v centru Ljubljane!\n✔️ 92 m² ✔️ balkon ✔️ garaža\nIdealno za mlade pare ali investicijo. Pokliči zdaj!"
+    }
+  ],
+  cookbook: [
+    {
+      title: "Email za prodajo knjige z recepti",
+      content:
+        "🍲 Nova knjiga receptov 'Domače & Zdravo' je tukaj!\n✓ 100+ receptov ✓ Enostavno ✓ Lokalno\nNaroči danes in prejmi GRATIS kuhinjsko merico!"
+    }
   ]
 };
 
@@ -55,7 +69,9 @@ const categoryEmojis = {
   fitness: "💪",
   influencer: "📸",
   software: "💻",
-  general: "🛍️"
+  general: "🛍️",
+  realestate: "🏡",
+  cookbook: "📖"
 };
 
 export default function Home() {
@@ -90,6 +106,20 @@ export default function Home() {
             )}
           </div>
         ))}
+      </div>
+
+      <div className="contact-form">
+        <h2>📬 Pošlji povpraševanje</h2>
+        <form
+          action="mailto:tvoj-email@example.com"
+          method="POST"
+          encType="text/plain"
+        >
+          <input type="text" name="ime" placeholder="Tvoje ime" required />
+          <input type="email" name="email" placeholder="Email naslov" required />
+          <textarea name="sporocilo" placeholder="Sporočilo..." required />
+          <button type="submit">Pošlji</button>
+        </form>
       </div>
     </div>
   );
