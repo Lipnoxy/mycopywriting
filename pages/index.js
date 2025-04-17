@@ -111,7 +111,7 @@ export default function Home() {
       <div className="contact-form">
         <h2>📬 Pošlji povpraševanje</h2>
         <form
-          action="mailto:tvoj-email@example.com"
+          action="mailto:lipniktim@gmail.com"
           method="POST"
           encType="text/plain"
         >
