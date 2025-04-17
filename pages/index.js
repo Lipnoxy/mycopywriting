@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import "../styles/globals.css";
 
 const examples = {
   fitness: [
@@ -51,24 +52,46 @@ const examples = {
   ]
 };
 
+const categoryEmojis = {
+  fitness: "💪",
+  influencer: "📸",
+  software: "💻",
+  general: "🛍️"
+};
+
 export default function Home() {
+  const [expanded, setExpanded] = useState(null);
+
   return (
-    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
-      <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>AI Copywriting Primeri</h1>
-      <p style={{ marginBottom: '1.5rem', color: '#555' }}>
-        Hitri primeri prodajnih besedil za različne tipe strank – fitnes trenerje, influencerje, SaaS podjetja in več.
+    <div className="page-container">
+      <h1 className="title">Lipnik – Copywriting primeri</h1>
+      <p className="subtitle">
+        Klikni na kategorijo za primere besedil ✨
       </p>
-      {Object.entries(examples).map(([key, items]) => (
-        <div key={key} style={{ marginBottom: '2rem' }}>
-          <h2 style={{ fontSize: '1.25rem', textTransform: 'capitalize' }}>{key}</h2>
-          {items.map((item, idx) => (
-            <div key={idx} style={{ marginTop: '0.5rem', padding: '1rem', border: '1px solid #eee', borderRadius: '8px' }}>
-              <strong>{item.title}</strong>
-              <pre style={{ whiteSpace: 'pre-wrap', fontSize: '0.9rem', marginTop: '0.5rem' }}>{item.content}</pre>
+      <div className="grid">
+        {Object.entries(examples).map(([key, items]) => (
+          <div
+            key={key}
+            className="card"
+            onClick={() => setExpanded(expanded === key ? null : key)}
+          >
+            <div className="card-header">
+              <span className="emoji">{categoryEmojis[key]}</span>
+              <h2>{key}</h2>
             </div>
-          ))}
-        </div>
-      ))}
+            {expanded === key && (
+              <div className="card-content">
+                {items.map((item, idx) => (
+                  <div key={idx} className="example">
+                    <strong>{item.title}</strong>
+                    <pre>{item.content}</pre>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
