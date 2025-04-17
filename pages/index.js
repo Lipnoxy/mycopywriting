@@ -79,6 +79,18 @@ export default function Home() {
   const [expanded, setExpanded] = useState(null);
 
   return (
+    <>
+      <Head>
+        <title>Lipnik – Copywriting primeri</title>
+        <meta name="description" content="Copywriting primeri za influencerje, trenerje, software, nepremičnine in več. Povečaj prodajo s pravimi besedami." />
+        <meta name="keywords" content="copywriting, primeri besedil, marketing, prodajna besedila, spletna prodaja, trener, influencer, oglaševanje" />
+        <meta property="og:title" content="Lipnik – Copywriting primeri" />
+        <meta property="og:description" content="Poglej si brezplačne primere marketinških besedil." />
+        <meta property="og:image" content="/images/preview.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+    
     <div className="page-container">
       <h1 className="title">Lipnik – Copywriting primeri</h1>
       <p className="subtitle">
@@ -123,5 +135,6 @@ export default function Home() {
         </form>
       </div>
     </div>
+  </>
   );
 }
