@@ -15,13 +15,21 @@ body {
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.8); /* prosojno belo */
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .contact-form {
-  background: rgba(255, 255, 255, 0.85); /* rahlo prosojno */
+  margin-top: 3rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 1rem;
 }
-
 
 .title {
   font-size: 2.5rem;
@@ -107,16 +115,6 @@ pre {
   cursor: pointer;
 }
 
-.card {
-  background: white;
-  border-radius: 1rem;
-  padding: 1rem;
-  margin: 1rem;
-  cursor: pointer;
-  box-shadow: 0 0 0 transparent;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
 .card:hover {
   transform: translateY(-5px) scale(1.02);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
@@ -142,13 +140,6 @@ pre {
   border-radius: 0.5rem;
   margin-bottom: 0.5rem;
   white-space: pre-wrap;
-}
-
-.contact-form {
-  margin-top: 3rem;
-  padding: 2rem;
-  background-color: #e6f0ff;
-  border-radius: 1rem;
 }
 
 .contact-form form {
