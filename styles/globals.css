@@ -1,25 +1,23 @@
 body {
-  background: url('/images/background.png') no-repeat center center fixed;
-  background-size: cover;
-}
-
-body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: repeating-linear-gradient(
-    to bottom,
-    #b3d6f2,
-    #b3d6f2 2cm,
-    #336699 2cm,
-    #336699 3cm
-  );
-  background-size: 100% 3cm;
-  background-repeat: repeat-y;
+  background:
+    url('/images/background.png') no-repeat center center fixed,
+    repeating-linear-gradient(
+      to bottom,
+      #b3d6f2,
+      #b3d6f2 2cm,
+      #336699 2cm,
+      #336699 3cm
+    );
+  background-size: cover, 100% 3cm;
+  background-repeat: no-repeat, repeat-y;
   color: #222;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 
 .page-container {
   padding: 2rem;
