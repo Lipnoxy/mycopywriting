@@ -24,8 +24,11 @@ body {
     /* Vodoravna modra črta */
     linear-gradient(to right, transparent 0%, #2a2a72 45%, #2a2a72 55%, transparent 100%),
 
-    linear-gradient(90deg, transparent 48%, gold 48%, gold 50%, transparent 50%),
-    linear-gradient(90deg, transparent 52%, #2a2a72 52%, #2a2a72 54%, transparent 54%);
+    /* Vodoravna zlata črta */
+    linear-gradient(to right, transparent 0%, gold 45%, gold 55%, transparent 100%),
+
+    /* Vodoravna modra črta */
+    linear-gradient(to right, transparent 0%, #2a2a72 45%, #2a2a72 55%, transparent 100%),
 
   background-repeat: no-repeat;
   background-size:
