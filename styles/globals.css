@@ -30,16 +30,16 @@ body {
     30% 100%, /* leva diagonala modra */
     30% 100%, /* desna diagonala zlata */
     30% 100%, /* desna diagonala modra */
-    100% 2px, /* vodoravna zlata */
-    100% 2px; /* vodoravna modra */
+    100% 20px, /* vodoravna zlata */
+    100% 20px; /* vodoravna modra */
 
   background-position:
     100% 10%,   /* leva diagonala zlata */
     100% 10%,   /* leva diagonala modra */
     100% 10%, /* desna diagonala zlata */
     100% 10%, /* desna diagonala modra */
-    0% 18%,   /* vodoravna zlata (višina po občutku - prilagodi po potrebi) */
-    0% 21%;   /* vodoravna modra */
+    -30% 18%,   /* vodoravna zlata (višina po občutku - prilagodi po potrebi) */
+    -30% 21%;   /* vodoravna modra */
 }
 
 
