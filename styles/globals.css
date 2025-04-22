@@ -8,24 +8,40 @@ body {
   background-color: #0a043c;
 
   background-image:
-    /* Leva stran - zlata */
+    /* Leva diagonala - zlata */
     linear-gradient(135deg, transparent 44%, gold 44%, gold 46%, transparent 46%),
-    /* Leva stran - modra */
+    /* Leva diagonala - modra */
     linear-gradient(135deg, transparent 48%, #2a2a72 48%, #2a2a72 50%, transparent 50%),
 
-    /* Desna stran - zlata */
+    /* Desna diagonala - zlata */
     linear-gradient(225deg, transparent 44%, gold 44%, gold 46%, transparent 46%),
-    /* Desna stran - modra */
-    linear-gradient(225deg, transparent 48%, #2a2a72 48%, #2a2a72 50%, transparent 50%);
-  
+    /* Desna diagonala - modra */
+    linear-gradient(225deg, transparent 48%, #2a2a72 48%, #2a2a72 50%, transparent 50%),
+
+    /* Vodoravna zlata črta */
+    linear-gradient(to right, transparent 0%, gold 45%, gold 55%, transparent 100%),
+
+    /* Vodoravna modra črta */
+    linear-gradient(to right, transparent 0%, #2a2a72 45%, #2a2a72 55%, transparent 100%);
+
   background-repeat: no-repeat;
-  background-size: 30% 100%; /* zmanjšano iz 50% */
+  background-size:
+    30% 100%, /* leva diagonala zlata */
+    30% 100%, /* leva diagonala modra */
+    30% 100%, /* desna diagonala zlata */
+    30% 100%, /* desna diagonala modra */
+    100% 2px, /* vodoravna zlata */
+    100% 2px; /* vodoravna modra */
+
   background-position:
-    100% 10%,   /* leva zlata */
-    100% 10%,   /* leva modra */
-    100% 10%, /* desna zlata */
-    100% 10%; /* desna modra */
+    0% 10%,   /* leva diagonala zlata */
+    0% 10%,   /* leva diagonala modra */
+    100% 10%, /* desna diagonala zlata */
+    100% 10%, /* desna diagonala modra */
+    0% 18%,   /* vodoravna zlata (višina po občutku - prilagodi po potrebi) */
+    0% 21%;   /* vodoravna modra */
 }
+
 
 .page-container {
   padding: 2rem;
