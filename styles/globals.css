@@ -19,7 +19,7 @@ body {
     linear-gradient(225deg, transparent 48%, #2a2a72 48%, #2a2a72 50%, transparent 50%);
   
   background-repeat: no-repeat;
-  background-size: 30% 100%; /* zmanjšano iz 50% */
+  background-size: 150% 100%; /* zmanjšano iz 50% */
   background-position:
     0% 0%,   /* leva zlata */
     0% 0%,   /* leva modra */
