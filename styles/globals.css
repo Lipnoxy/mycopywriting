@@ -22,7 +22,10 @@ body {
     linear-gradient(to right, transparent 0%, gold 45%, gold 55%, transparent 100%),
 
     /* Vodoravna modra črta */
-    linear-gradient(to right, transparent 0%, #2a2a72 45%, #2a2a72 55%, transparent 100%);
+    linear-gradient(to right, transparent 0%, #2a2a72 45%, #2a2a72 55%, transparent 100%),
+
+    linear-gradient(90deg, transparent 48%, gold 48%, gold 50%, transparent 50%),
+    linear-gradient(90deg, transparent 52%, #2a2a72 52%, #2a2a72 54%, transparent 54%);
 
   background-repeat: no-repeat;
   background-size:
@@ -30,15 +33,19 @@ body {
     30% 100%, /* leva diagonala modra */
     30% 100%, /* desna diagonala zlata */
     30% 100%, /* desna diagonala modra */
-    80% 28px, /* vodoravna zlata */
-    80% 28px; /* vodoravna modra */
+    80% 28px, /*zg vodoravna zlata */
+    80% 28px, /*zg vodoravna modra */
+    80% 28px, /*sp vodoravna zlata */
+    80% 28px; /*sp vodoravna modra */
   background-position:
     100% 10%,   /* leva diagonala zlata */
     100% 10%,   /* leva diagonala modra */
     100% 10%, /* desna diagonala zlata */
     100% 10%, /* desna diagonala modra */
-    0% 12%,   /* vodoravna zlata (višina po občutku - prilagodi po potrebi) */
-    0% 18%;   /* vodoravna modra */
+    0% 12%,   /* zg vodoravna zlata (višina po občutku - prilagodi po potrebi) */
+    0% 18%,   /* zg vodoravna modra */
+    0% 88%,   /* sp vodoravna zlata (višina po občutku - prilagodi po potrebi) */
+    0% 82%;   /* sp vodoravna modra */
 }
 
 
