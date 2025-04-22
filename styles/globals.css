@@ -34,8 +34,8 @@ body {
     100% 2px; /* vodoravna modra */
 
   background-position:
-    0% 10%,   /* leva diagonala zlata */
-    0% 10%,   /* leva diagonala modra */
+    100% 10%,   /* leva diagonala zlata */
+    100% 10%,   /* leva diagonala modra */
     100% 10%, /* desna diagonala zlata */
     100% 10%, /* desna diagonala modra */
     0% 18%,   /* vodoravna zlata (višina po občutku - prilagodi po potrebi) */
