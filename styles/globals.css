@@ -36,10 +36,10 @@ body {
     30% 100%, /* leva diagonala modra */
     30% 100%, /* desna diagonala zlata */
     30% 100%, /* desna diagonala modra */
-    80% 28px, /*zg vodoravna zlata */
-    80% 28px, /*zg vodoravna modra */
-    80% 28px, /*sp vodoravna zlata */
-    80% 28px; /*sp vodoravna modra */
+    80% 30px, /*zg vodoravna zlata */
+    80% 30px, /*zg vodoravna modra */
+    80% 30px, /*sp vodoravna zlata */
+    80% 30px; /*sp vodoravna modra */
   background-position:
     100% 10%,   /* leva diagonala zlata */
     100% 10%,   /* leva diagonala modra */
@@ -47,8 +47,8 @@ body {
     100% 10%, /* desna diagonala modra */
     0% 12%,   /* zg vodoravna zlata (višina po občutku - prilagodi po potrebi) */
     0% 18%,   /* zg vodoravna modra */
-    0% 82%,   /* sp vodoravna zlata (višina po občutku - prilagodi po potrebi) */
-    0% 88%;   /* sp vodoravna modra */
+    0% 67%,   /* sp vodoravna zlata (višina po občutku - prilagodi po potrebi) */
+    0% 73%;   /* sp vodoravna modra */
 }
 
 
