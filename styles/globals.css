@@ -48,8 +48,8 @@ body {
     100% 10%, /* desna diagonala zlata */
     100% 10%, /* desna diagonala modra */
     0% 11%,   /* zg vodoravna zlata (višina po občutku - prilagodi po potrebi) */
-    0% 17%,   /* zg vodoravna modra */
-    0% 73%,   /* sp vodoravna zlata (višina po občutku - prilagodi po potrebi) */
+    0% 17,5%,   /* zg vodoravna modra */
+    0% 72,5%,   /* sp vodoravna zlata (višina po občutku - prilagodi po potrebi) */
     0% 79%;   /* sp vodoravna modra */
 }
 
