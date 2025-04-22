@@ -28,7 +28,7 @@ body {
     linear-gradient(to right, transparent 0%, gold 45%, gold 55%, transparent 100%),
 
     /* Vodoravna modra črta */
-    linear-gradient(to right, transparent 0%, #2a2a72 45%, #2a2a72 55%, transparent 100%),
+    linear-gradient(to right, transparent 0%, #2a2a72 45%, #2a2a72 55%, transparent 100%);
 
   background-repeat: no-repeat;
   background-size:
