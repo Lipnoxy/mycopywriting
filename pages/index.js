@@ -104,14 +104,43 @@ export default function Home() {
     <>
       <Head>
         <title>Lipnik – Copywriting</title>
-        <meta name="description" content="Copywriting examples for influencers, trainers, software, real estate and more. Boost your business with the right words." />
+        <meta
+          name="description"
+          content="Words that convert
+      Free examples of marketing copy.
+      Boost your sales with better captions and writing."
+        />
         <meta name="keywords" content="copywriting, writing examples, marketing, sales copy, website copy, trainer, influencer, ads" />
+      
+        {/* Facebook Meta Tags */}
+        <meta property="og:url" content="https://www.lipnik-copywriting.com/" />
+        <meta property="og:type" content="website" />
         <meta property="og:title" content="Lipnik – Copywriting" />
-        <meta property="og:description" content="Free examples of marketing copy." />
-        <meta property="og:image" content="/images/preview.png" />
+        <meta
+          property="og:description"
+          content="Words that convert
+      Free examples of marketing copy.
+      Boost your sales with better captions and writing."
+        />
+        <meta property="og:image" content="https://lipnik-copywriting.com/images/preview.png" />
+      
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="lipnik-copywriting.com" />
+        <meta property="twitter:url" content="https://www.lipnik-copywriting.com/" />
+        <meta name="twitter:title" content="Lipnik – Copywriting" />
+        <meta
+          name="twitter:description"
+          content="Words that convert
+      Free examples of marketing copy.
+      Boost your sales with better captions and writing."
+        />
+        <meta name="twitter:image" content="https://lipnik-copywriting.com/images/preview.png" />
+      
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
     
       <div className="page-container">
         <h1 className="title">Lipnik – Copywriting</h1>
