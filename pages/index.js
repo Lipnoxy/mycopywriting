@@ -113,23 +113,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     
-    <div className="page-container">
-      <h1 className="title">Lipnik – Copywriting</h1>
-      <p className="subtitle">
-        Words that convert ✨
-      </p>
-      <div className="grid">
-        {Object.entries(examples).map(([key, items]) => (
-          <div
-            key={key}
-            className="card"
-            onClick={() => setExpanded(expanded === key ? null : key)}
-          >
-            <div className="card-header">
-              <span className="emoji">{categoryEmojis[key]}</span>
-              <h2>{key}</h2>
-            </div>
-            {expanded === key && (
+      <div className="page-container">
+        <h1 className="title">Lipnik – Copywriting</h1>
+        <p className="subtitle">
+          Words that convert ✨
+        </p>
+        <div className="grid">
+          {Object.entries(examples).map(([key, items]) => (
+            <div
+              key={key}
+              className={`card ${expanded === key ? "expanded" : ""}`}
+              onClick={() => setExpanded(expanded === key ? null : key)}
+            >
+              <div className="card-header">
+                <span className="emoji">{categoryEmojis[key]}</span>
+                <h2>{key}</h2>
+              </div>
               <div className="card-content">
                 {items.map((item, idx) => (
                   <div key={idx} className="example">
@@ -138,25 +137,24 @@ export default function Home() {
                   </div>
                 ))}
               </div>
-            )}
-          </div>
-        ))}
-      </div>
+            </div>
+          ))}
+        </div>
 
-      <div className="contact-form">
-        <h2>📬 Get in Touch</h2>
-        <form
-          action="mailto:lipniktim@gmail.com"
-          method="POST"
-          encType="text/plain"
-        >
-          <input type="text" name="name" placeholder="Your name" required />
-          <input type="email" name="email" placeholder="Email address" required />
-          <textarea name="message" placeholder="Message..." required />
-          <button type="submit">Send</button>
-        </form>
+        <div className="contact-form">
+          <h2>📬 Get in Touch</h2>
+          <form
+            action="mailto:lipniktim@gmail.com"
+            method="POST"
+            encType="text/plain"
+          >
+            <input type="text" name="name" placeholder="Your name" required />
+            <input type="email" name="email" placeholder="Email address" required />
+            <textarea name="message" placeholder="Message..." required />
+            <button type="submit">Send</button>
+          </form>
+        </div>
       </div>
-    </div>
-  </>
+    </>
   );
 }
