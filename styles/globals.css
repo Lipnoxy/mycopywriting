@@ -69,10 +69,6 @@ body {
   font-size: 1.5rem;
 }
 
-.card-content {
-  margin-top: 0.75rem;
-}
-
 .example {
   background-color: #eef4ff;
   padding: 0.9rem;
@@ -131,4 +127,22 @@ pre {
 
 .contact-form button:hover {
   background-color: #003d73;
+}
+
+.card-content {
+  margin-top: 0.75rem;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: 
+    max-height 0.5s ease,
+    opacity 0.4s ease,
+    transform 0.4s ease;
+}
+
+.card.expanded .card-content {
+  max-height: 1000px; /* dovolj veliko, da prikaže vsebino */
+  opacity: 1;
+  transform: translateY(0);
 }
