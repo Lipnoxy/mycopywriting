@@ -32,14 +32,14 @@ const examples = {
       content: "• Product launch emails\n• Feature release notes\n• App store descriptions\n• Landing page copy\n• Explainer video scripts\n• Blog posts & newsletters"
     }
   ],
-  general: [
+  coaches: [
     {
       title: "Words that convert",
-      content: "By someone who gets what your audience wants.\nLet’s turn your passion into profit."
+      content: "Your wisdom, their breakthrough — words that build trust & sell."
     },
     {
       title: "Services for you",
-      content: "• Email marketing\n• Oneliners & captions\n• Product descriptions\n• Ad copy\n• Sales pages\n• Brand story & tone of voice\n• Video scripts"
+      content: "• ECourse landing pages\n• Webinar email funnels\n• Sales pages for workshops\n• Certificate blurbs\n• Student testimonials\n• Curriculum descriptions"
     }
   ],
   realestate: [
@@ -79,20 +79,31 @@ const examples = {
     },
     {
       title: "Services for you",
-      content: "• Cold outreach emails\n• Sales sequences\n• Promotional emails\n• Welcome series\n• Lead magnet funnels\n• Newsletter copy"
+      content: "• Product launch emails\n• Cold outreach emails\n• Sales sequences\n• Promotional emails\n• Welcome series\n• Lead magnet funnels\n• Newsletter copy"
     }
-  ]
+  ],
+  general: [
+    {
+      title: "Words that convert",
+      content: "By someone who gets what your audience wants.\nLet’s turn your passion into profit."
+    },
+    {
+      title: "Services for you",
+      content: "• Email marketing\n• Oneliners & captions\n• Product descriptions\n• Ad copy\n• Sales pages\n• Brand story & tone of voice\n• Video scripts"
+    }
+  ],
 };
 
 const categoryEmojis = {
   fitness: "💪",
   influencer: "📸",
   software: "💻",
-  general: "🚽️",
+  coaches: "🎓",
   realestate: "🏡",
   cookbook: "📖",
   instagram: "📷",
-  gmail: "✉️"
+  gmail: "✉️",
+  general: "🚀"
 };
 
 export default function Home() {
