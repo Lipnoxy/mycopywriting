@@ -173,7 +173,7 @@ export default function Home() {
 
         <div className="contact-form">
           <h2>📬 Get in Touch</h2>
-          <form action="mailto:lipniktim@gmail.com" method="POST" encType="text/plain">
+          <form action="https://formspree.io/f/xovdqgew" method="POST">
             <input type="text" name="name" placeholder="Your name" required />
             <input type="email" name="email" placeholder="Email address" required />
             <textarea name="message" placeholder="Message..." required />
