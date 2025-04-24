@@ -148,11 +148,12 @@ pre {
 }
 
 .about-me {
-  background: linear-gradient(to right, #fdfbfb, #ebedee); /* rahla svetla razlika */
+  background: linear-gradient(to right, #1e1e1e, #2c2c2c);
+  color: white;
   padding: 2rem;
   border-radius: 1.5rem;
   margin-top: 3rem;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
 }
 
 .about-me h2 {
