@@ -32,14 +32,14 @@ const examples = {
       content: "• Product launch emails\n• Feature release notes\n• App store descriptions\n• Landing page copy\n• Explainer video scripts\n• Blog posts & newsletters"
     }
   ],
-  general: [
+  coaches: [
     {
       title: "Words that convert",
-      content: "By someone who gets what your audience wants.\nLet’s turn your passion into profit."
+      content: "Your wisdom, their breakthrough — words that build trust & sell."
     },
     {
       title: "Services for you",
-      content: "• Email marketing\n• Oneliners & captions\n• Product descriptions\n• Ad copy\n• Sales pages\n• Brand story & tone of voice\n• Video scripts"
+      content: "• ECourse landing pages\n• Webinar email funnels\n• Sales pages for workshops\n• Certificate blurbs\n• Student testimonials\n• Curriculum descriptions"
     }
   ],
   realestate: [
@@ -79,31 +79,31 @@ const examples = {
     },
     {
       title: "Services for you",
-      content: "• Cold outreach emails\n• Sales sequences\n• Promotional emails\n• Welcome series\n• Lead magnet funnels\n• Newsletter copy"
+      content: "• Product launch emails\n• Cold outreach emails\n• Sales sequences\n• Promotional emails\n• Welcome series\n• Lead magnet funnels\n• Newsletter copy"
     }
   ],
-  coaches: [
+  general: [
     {
       title: "Words that convert",
-      content: "Coaches don’t just talk — they connect. With the right words."
+      content: "By someone who gets what your audience wants.\nLet’s turn your passion into profit."
     },
     {
       title: "Services for you",
-      content: "• Sales pages for your coaching offer\n• Email funnels\n• Social captions\n• Testimonials & transformation story writing\n• Webinar registration copy\n• Landing pages"
+      content: "• Email marketing\n• Oneliners & captions\n• Product descriptions\n• Ad copy\n• Sales pages\n• Brand story & tone of voice\n• Video scripts"
     }
-  ]
+  ],
 };
 
 const categoryEmojis = {
   fitness: "💪",
   influencer: "📸",
   software: "💻",
-  general: "🌟",
+  coaches: "🎓",
   realestate: "🏡",
   cookbook: "📖",
   instagram: "📷",
   gmail: "✉️",
-  coaches: "👨‍🎓"
+  general: "🚀"
 };
 
 export default function Home() {
@@ -136,16 +136,13 @@ export default function Home() {
       </Head>
 
       <div className="page-container">
-        <div className="text-center py-10 bg-gradient-to-br from-gray-900 to-black text-white rounded-xl shadow-lg mb-8">
-          <h1 className="text-4xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-yellow-500">Lipnik – Copywriting</h1>
-          <p className="mt-2 text-xl text-white/90">Words that convert ✨</p>
-        </div>
-
+        <h1 className="title">Lipnik – Copywriting</h1>
+        <p className="subtitle">Words that convert ✨</p>
         <div className="grid">
           {Object.entries(examples).map(([key, items]) => (
             <div
               key={key}
-              className={`card transition-all duration-300 hover:shadow-xl hover:bg-gray-100 cursor-pointer ${expanded === key ? "expanded" : ""}`}
+              className={`card ${expanded === key ? "expanded" : ""}`}
               onClick={() => setExpanded(expanded === key ? null : key)}
             >
               <div className="card-header">
@@ -164,19 +161,19 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="about-me bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-md mt-10">
-          <h2 className="text-2xl font-semibold mb-2">Why Me?</h2>
+        <div className="about-me">
+          <h2>Why Me?</h2>
           <p>
             Ranked top of my high school class, among the top 10 of my school generation, and one of the top in the country in English essay writing. I’ve helped a YouTuber double their subscribers in a single month, and helped a gym owner grow their business by 4x with sharp, persuasive copy. Whether you need fun & slangy captions for a Gen Z crowd or professional tone for a serious product — I’ve got you.
           </p>
-          <p className="mt-4">
+          <p>
             I love writing emails, captions, and video scripts that connect with your audience and get them to *act*. Let’s make it happen.
           </p>
         </div>
 
-        <div className="contact-form mt-10">
-          <h2 className="text-xl font-semibold mb-2">📬 Get in Touch</h2>
-          <form action="mailto:lipniktim@gmail.com" method="POST" encType="text/plain">
+        <div className="contact-form">
+          <h2>📬 Get in Touch</h2>
+          <form action="https://formspree.io/f/xovdqgew" method="POST">
             <input type="text" name="name" placeholder="Your name" required />
             <input type="email" name="email" placeholder="Email address" required />
             <textarea name="message" placeholder="Message..." required />
