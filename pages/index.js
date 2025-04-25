@@ -112,31 +112,31 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Lipnik – writingwriting</title>
+        <title>Lipnik – copywriting</title>
         <meta name="description" content="Words that convert\nFree examples of marketing writing.\nBoost your sales with better captions and writing." />
-        <meta name="keywords" content="writingwriting, writing examples, marketing, sales writing, website writing, trainer, influencer, ads" />
+        <meta name="keywords" content="copywriting, writing examples, marketing, sales writing, website writing, trainer, influencer, ads" />
 
         {/* Facebook Meta Tags */}
-        <meta property="og:url" content="https://www.lipnik-writingwriting.com/" />
+        <meta property="og:url" content="https://www.lipnik-copywriting.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Lipnik – writingwriting" />
+        <meta property="og:title" content="Lipnik – copywriting" />
         <meta property="og:description" content="Words that convert\nFree examples of marketing writing.\nBoost your sales with better captions and writing." />
-        <meta property="og:image" content="https://lipnik-writingwriting.com/images/preview.png" />
+        <meta property="og:image" content="https://lipnik-copywriting.com/images/preview.png" />
 
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="lipnik-writingwriting.com" />
-        <meta property="twitter:url" content="https://www.lipnik-writingwriting.com/" />
-        <meta name="twitter:title" content="Lipnik – writingwriting" />
+        <meta property="twitter:domain" content="lipnik-copywriting.com" />
+        <meta property="twitter:url" content="https://www.lipnik-copywriting.com/" />
+        <meta name="twitter:title" content="Lipnik – copywriting" />
         <meta name="twitter:description" content="Words that convert\nFree examples of marketing writing.\nBoost your sales with better captions and writing." />
-        <meta name="twitter:image" content="https://lipnik-writingwriting.com/images/preview.png" />
+        <meta name="twitter:image" content="https://lipnik-copywriting.com/images/preview.png" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="page-container">
-        <h1 className="title">Lipnik – writingwriting</h1>
+        <h1 className="title">Lipnik – copywriting</h1>
         <p className="subtitle">Words that convert ✨</p>
         <div className="grid">
           {Object.entries(examples).map(([key, items]) => (
