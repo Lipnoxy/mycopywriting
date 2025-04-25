@@ -164,11 +164,20 @@ export default function Home() {
         <div className="about-me">
           <h2>Why Me?</h2>
           <p>
-            Ranked top of my high school class, among the top 10 of my school generation, and one of the top in the country in English essay writing. I’ve helped a YouTuber double their subscribers in a single month, and helped a gym owner grow their business by 4x with sharp, persuasive copy. Whether you need fun & slangy captions for a Gen Z crowd or professional tone for a serious product — I’ve got you.
-          </p>
+            I've got the academic creds — ranked top of my high school class, top 10 in my generation, and nationally recognized for English essay writing. But what matters more? I get real results.
+           </p>
           <p>
-            I love writing emails, captions, and video scripts that connect with your audience and get them to *act*. Let’s make it happen.
+            I helped a YouTuber double their subscribers in just one month, and grew a gym owner's business 4x with strategic, persuasive writing.
           </p>
+    		  <p>
+    			In my free time, I’m an avid climber, volleyball player, skier, regular at the gym and a lifelong learner (yes, even mastered the Rubik’s cube). I pick up new niches fast, dive deep into the details, and turn complex ideas into clear, compelling writing that sells.
+    		  </p>
+    		  <p>
+    			From fun, slangy Gen Z vibes to professional tone for serious products — I can do it all. But I especially love crafting emails, captions, and video scripts that connect and convert.
+    		  </p>
+    		  <p>
+    			Let’s create something that clicks.
+    		  </p>
         </div>
 
         <div className="contact-form">
