@@ -9,7 +9,7 @@ const examples = {
     },
     {
       title: "Services for you",
-      content: "• Sales emails for personal training programs\n• Captions that motivate\n• Video scripts for workouts\n• Lead magnets\n• Website and landing page copy\n• Brand voice development\n• Testimonials & case study copy"
+      content: "• Sales emails for personal training programs\n• Captions that motivate\n• Video scripts for workouts\n• Lead magnets\n• Website and landing page writing\n• Brand voice development\n• Testimonials & case study writing"
     }
   ],
   influencer: [
@@ -19,7 +19,7 @@ const examples = {
     },
     {
       title: "Services for you",
-      content: "• Email sequences for product drops\n• Social captions that sound like you\n• Merch launch copy\n• YouTube/IG video scripts\n• Brand pitch templates\n• Profile bios\n• CTA optimization"
+      content: "• Email sequences for product drops\n• Social captions that sound like you\n• Merch launch writing\n• YouTube/IG video scripts\n• Brand pitch templates\n• Profile bios\n• CTA optimization"
     }
   ],
   software: [
@@ -29,7 +29,7 @@ const examples = {
     },
     {
       title: "Services for you",
-      content: "• Product launch emails\n• Feature release notes\n• App store descriptions\n• Landing page copy\n• Explainer video scripts\n• Blog posts & newsletters"
+      content: "• Product launch emails\n• Feature release notes\n• App store descriptions\n• Landing page writing\n• Explainer video scripts\n• Blog posts & newsletters"
     }
   ],
   coaches: [
@@ -45,11 +45,11 @@ const examples = {
   realestate: [
     {
       title: "Words that convert",
-      content: "From listing to closing — copy that moves properties fast."
+      content: "From listing to closing — writing that moves properties fast."
     },
     {
       title: "Services for you",
-      content: "• Listing descriptions\n• Email drip campaigns\n• Open house invites\n• Realtor bios\n• Slogan/USP creation\n• Property brochure copy"
+      content: "• Listing descriptions\n• Email drip campaigns\n• Open house invites\n• Realtor bios\n• Slogan/USP creation\n• Property brochure writing"
     }
   ],
   cookbook: [
@@ -59,7 +59,7 @@ const examples = {
     },
     {
       title: "Services for you",
-      content: "• Recipe intros & instructions\n• Email launches for cookbooks\n• Sales copy for products\n• Captions for reels\n• Scripted kitchen demos\n• Book back cover blurbs"
+      content: "• Recipe intros & instructions\n• Email launches for cookbooks\n• Sales writing for products\n• Captions for reels\n• Scripted kitchen demos\n• Book back cover blurbs"
     }
   ],
   instagram: [
@@ -79,7 +79,7 @@ const examples = {
     },
     {
       title: "Services for you",
-      content: "• Product launch emails\n• Cold outreach emails\n• Sales sequences\n• Promotional emails\n• Welcome series\n• Lead magnet funnels\n• Newsletter copy"
+      content: "• Product launch emails\n• Cold outreach emails\n• Sales sequences\n• Promotional emails\n• Welcome series\n• Lead magnet funnels\n• Newsletter writing"
     }
   ],
   general: [
@@ -89,7 +89,7 @@ const examples = {
     },
     {
       title: "Services for you",
-      content: "• Email marketing\n• Oneliners & captions\n• Product descriptions\n• Ad copy\n• Sales pages\n• Brand story & tone of voice\n• Video scripts"
+      content: "• Email marketing\n• Oneliners & captions\n• Product descriptions\n• Ad writing\n• Sales pages\n• Brand story & tone of voice\n• Video scripts"
     }
   ],
 };
@@ -112,31 +112,31 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Lipnik – Copywriting</title>
-        <meta name="description" content="Words that convert\nFree examples of marketing copy.\nBoost your sales with better captions and writing." />
-        <meta name="keywords" content="copywriting, writing examples, marketing, sales copy, website copy, trainer, influencer, ads" />
+        <title>Lipnik – writingwriting</title>
+        <meta name="description" content="Words that convert\nFree examples of marketing writing.\nBoost your sales with better captions and writing." />
+        <meta name="keywords" content="writingwriting, writing examples, marketing, sales writing, website writing, trainer, influencer, ads" />
 
         {/* Facebook Meta Tags */}
-        <meta property="og:url" content="https://www.lipnik-copywriting.com/" />
+        <meta property="og:url" content="https://www.lipnik-writingwriting.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Lipnik – Copywriting" />
-        <meta property="og:description" content="Words that convert\nFree examples of marketing copy.\nBoost your sales with better captions and writing." />
-        <meta property="og:image" content="https://lipnik-copywriting.com/images/preview.png" />
+        <meta property="og:title" content="Lipnik – writingwriting" />
+        <meta property="og:description" content="Words that convert\nFree examples of marketing writing.\nBoost your sales with better captions and writing." />
+        <meta property="og:image" content="https://lipnik-writingwriting.com/images/preview.png" />
 
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="lipnik-copywriting.com" />
-        <meta property="twitter:url" content="https://www.lipnik-copywriting.com/" />
-        <meta name="twitter:title" content="Lipnik – Copywriting" />
-        <meta name="twitter:description" content="Words that convert\nFree examples of marketing copy.\nBoost your sales with better captions and writing." />
-        <meta name="twitter:image" content="https://lipnik-copywriting.com/images/preview.png" />
+        <meta property="twitter:domain" content="lipnik-writingwriting.com" />
+        <meta property="twitter:url" content="https://www.lipnik-writingwriting.com/" />
+        <meta name="twitter:title" content="Lipnik – writingwriting" />
+        <meta name="twitter:description" content="Words that convert\nFree examples of marketing writing.\nBoost your sales with better captions and writing." />
+        <meta name="twitter:image" content="https://lipnik-writingwriting.com/images/preview.png" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="page-container">
-        <h1 className="title">Lipnik – Copywriting</h1>
+        <h1 className="title">Lipnik – writingwriting</h1>
         <p className="subtitle">Words that convert ✨</p>
         <div className="grid">
           {Object.entries(examples).map(([key, items]) => (
@@ -193,4 +193,3 @@ But what matters more? I get real results.
     </>
   );
 }
-
