@@ -135,9 +135,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <div className="hero-banner">
+        <h1>Lipnik – Copywriting</h1>
+        <p>Words that convert ✨</p>
+      </div>
+    
       <div className="page-container">
-        <h1 className="title">Lipnik – Copywriting</h1>
-        <p className="subtitle">Words that convert ✨</p>
         <div className="grid">
           {Object.entries(examples).map(([key, items]) => (
             <div
