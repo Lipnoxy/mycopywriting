@@ -179,6 +179,7 @@ But what matters more? I get real results.
 		  <p>
 			Let’s create something that clicks.
 		  </p>
+		<p> Contact me through the form down below or directly at: lipniktim@gmail.com</p>
         </div>
 
         <div className="contact-form">
