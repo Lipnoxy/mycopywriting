@@ -176,10 +176,8 @@ But what matters more? I get real results.
 		  <p>
 			From fun, slangy Gen Z vibes to professional tone for serious products — I can do it all. But I especially love crafting emails, captions, and video scripts that connect and convert.
 		  </p>
-		  <p>
-			Let’s create something that clicks.
-		  </p>
-		<p> Contact me through the form down below or directly at: lipniktim@gmail.com</p>
+		<p> Contact me to get started either through the form down below or directly at: lipniktim@gmail.com</p>
+		<p>Let’s create something that clicks!</p>
         </div>
 
         <div className="contact-form">
