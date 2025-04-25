@@ -134,15 +134,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    
+
       <div className="page-container">
-        <h1>Lipnik – Copywriting</h1>
-        <p>Words that convert ✨</p>
+        <h1 className="title">Lipnik – Copywriting</h1>
+        <p className="subtitle">Words that convert ✨</p>
         <div className="grid">
           {Object.entries(examples).map(([key, items]) => (
             <div
               key={key}
-              className={`card ${expanded === key ? "expanded" : ""}`}
+              className={card ${expanded === key ? "expanded" : ""}}
               onClick={() => setExpanded(expanded === key ? null : key)}
             >
               <div className="card-header">
