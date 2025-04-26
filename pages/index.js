@@ -171,7 +171,7 @@ But what matters more? I get real results.
             I helped a YouTuber double their subscribers in just one month, and grew a gym owner's business 4x with strategic, persuasive writing.
           </p>
 		  <p>
-			In my free time, I’m an avid climber, volleyball player, skier, regular at the gym and a lifelong learner (yes, even mastered the Rubik’s cube). I pick up new niches fast, dive deep into the details, and turn complex ideas into clear, compelling writing that sells.
+			In my free time, I’m an avid climber, volleyball player, skier, hiker, car enthusiast, (video)photographer, a regular at the gym and a lifelong learner (yes, even mastered the Rubik’s cube). I pick up new niches fast, dive deep into the details, and turn complex ideas into clear, compelling writing that sells.
 		  </p>
 		  <p>
 			From fun, slangy Gen Z vibes to professional tone for serious products — I can do it all. But I especially love crafting emails, captions, and video scripts that connect and convert.
